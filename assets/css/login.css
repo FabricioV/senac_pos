@@ -1,0 +1,36 @@
+body{
+    background: url('../images/2background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login-background{
+    margin-top: 200px;
+    width: 350px;
+    height: 290px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+
+.login-background input[type='submit']{
+    width: 100%;
+}
+
+.login-background h4{
+    text-align: center;
+}
+
+label.error{
+    color: red;
+    position: absolute;
+}
+
+.alert{
+    display: none;
+}

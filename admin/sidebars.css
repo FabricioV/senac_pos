@@ -1,0 +1,29 @@
+body {
+  display: flex;
+}
+
+
+.bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor;
+}
+
+.container{
+    margin-left: 0 !important;
+}
+
+.ping-resultado{
+    margin-top: 30px;
+}
+
+label.error{
+    color: red;
+}
+label{
+    font-weight: bold;
+}
+
+.alert{
+    display: none;
+}
