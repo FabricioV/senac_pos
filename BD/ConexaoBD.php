@@ -11,7 +11,7 @@ class ConexaoBD {
 
     public function conecta_bd() {
         try {
-            $this->conn = new PDO('mysql:host=192.168.74.178;port=3306;dbname=pos', $this->usuairio, $this->senha);
+            $this->conn = new PDO('mysql:host=localhost;port=3306;dbname=pos', $this->usuairio, $this->senha);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn->exec("set names utf8");
             
