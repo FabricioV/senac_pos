@@ -2,8 +2,8 @@
 
 class ConexaoBD {
 
-    private $usuairio = "ti";
-    private $senha = "T1sup0rt&";
+    private $usuairio = "usuario";
+    private $senha = "senha";
 
     public function __construct() {
         $this->conecta_bd();
